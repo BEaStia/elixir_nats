@@ -2,7 +2,7 @@ defmodule Nats.Mixfile do
   use Mix.Project
 
   def version, do: "0.0.1"
-  @source_url "https://github.com/aforward/elixir_nats"
+  @source_url "https://github.com/beastia/elixir_nats"
 
   def project do
     [app: :nats,
@@ -29,7 +29,7 @@ defmodule Nats.Mixfile do
 
   defp deps do
     [{:json, "~> 0.3.0"},
-     {:poolboy,  "~> 1.4"},
+     {:poolboy,  "~> 1.5.1"},
      {:inch_ex, only: :docs}]
   end
 
