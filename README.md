@@ -11,7 +11,7 @@ Here is a sample configuration to connect to your NATS server.
 ```elixir
 # In your config/config.exs file
 config :nats, Nats.Connection,
-  url: "mynatsserver.com",
+  host: "mynatsserver.com",
   port: 4222,
   verbose: true,
   pedantic: false,
